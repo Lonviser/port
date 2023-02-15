@@ -2,7 +2,7 @@
      padding-top: 120px;
      &__wrapper{
         display: grid;
-        grid-template-columns: 400px 670px;
+        grid-template-columns: 400px 605px;
         grid-template-rows: 245px minmax(245px, auto);
         grid-auto-rows: minmax(245px,auto );
         column-gap: 70px;
@@ -33,6 +33,9 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
+     }
+     &__divider{
+        margin: 0;
      }
      &__skills{
         display: grid;
